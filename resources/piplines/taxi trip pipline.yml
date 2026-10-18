@@ -1,0 +1,21 @@
+
+id: 90e4ed20-bd3f-4639-8e38-52b599909847
+pipeline_type: WORKSPACE
+name: taxi trip pipline
+libraries:
+  - glob:
+      include: ../../taxi trip
+        pipline/transformations/**
+  - glob:
+      include: ../../src/notebooks/bronze_ingestion
+  - glob:
+      include: ../../src/notebooks/silver_trips_clean
+  - glob:../../src/notebooks/gold_aggregation
+schema: bronze
+continuous: false
+development: false
+photon: true
+channel: CURRENT
+catalog: assetbundles
+serverless: true
+root_path: /Workspace/Users/omarelsoudy36@gmail.com/taxi trip pipline

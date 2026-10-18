@@ -41,6 +41,9 @@ The **New York City Taxi and Limousine Commission (TLC)** trip record dataset co
 
 ## 🏗 Pipeline Architecture & Data Flow
 
+<img width="1493" height="700" alt="Capture" src="https://github.com/user-attachments/assets/1a860748-8d49-4061-b616-78bcfd14edbf" />
+
+
 ```text
 [ Raw Taxi Data Files ] 
           │

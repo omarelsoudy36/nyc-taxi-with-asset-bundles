@@ -61,16 +61,25 @@ The **New York City Taxi and Limousine Commission (TLC)** trip record dataset co
 
 ### 1. Authentication & Setup
 Run the following command to login to Databricks CLI:
-`databricks auth login`
+```bash
+databricks auth login
+```
 
 ### 2. Bundle Validation
 Run the following command to validate the bundle for development:
-`databricks bundle validate -t dev`
+```bash
+databricks bundle validate -t dev
+```
 
 ### 3. Deploy to Environment
 Run the following command to deploy the bundle:
-`databricks bundle deploy -t dev`
+```bash
+databricks bundle deploy -t dev
+```
 
 ### 4. Execute Pipeline
 Run the following command to trigger the pipeline execution:
-`databricks bundle run -t dev`
+```bash
+databricks bundle run -t dev
+```
+
